@@ -1,0 +1,21 @@
+{
+  "name": "mern-bug-tracker-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src -e js --exec \"node --enable-source-maps src/index.js\"",
+    "test": "jest --runInBand --detectOpenHandles --coverage"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "mongoose": "^7.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.0.0",
+    "nodemon": "^2.0.0"
+  }
+}

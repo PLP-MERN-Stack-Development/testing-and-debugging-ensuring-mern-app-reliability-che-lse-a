@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "seed-1",
+    "title": "Sample bug: login fails",
+    "description": "Users can't login with correct creds",
+    "status": "open",
+    "createdAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "_id": "seed-2",
+    "title": "UI glitch on mobile",
+    "description": "Button overlaps text",
+    "status": "in-progress",
+    "createdAt": "2025-02-02T00:00:00Z"
+  }
+]
